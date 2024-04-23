@@ -57,8 +57,6 @@ public class SubstancesMod
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.BLUNT);
-            event.accept(ModItems.WEED_LEAF);
         }
 
 

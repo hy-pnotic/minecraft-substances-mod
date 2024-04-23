@@ -19,6 +19,7 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.WEED_LEAF.get());
                         output.accept(ModItems.BLUNT.get());
+                        output.accept(ModItems.CIGARETTE.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {
