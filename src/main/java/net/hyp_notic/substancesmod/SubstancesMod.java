@@ -1,6 +1,9 @@
 package net.hyp_notic.substancesmod;
 
 import com.mojang.logging.LogUtils;
+import net.hyp_notic.substancesmod.item.ModCreativeModTabs;
+import net.hyp_notic.substancesmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -16,16 +19,21 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(SubstanceMod.MOD_ID)
-public class SubstanceMod
+@Mod(SubstancesMod.MOD_ID)
+public class SubstancesMod
 {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "substancesmod_hyp_notic";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-    public SubstanceMod()
+    public SubstancesMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -48,6 +56,11 @@ public class SubstanceMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.BLUNT);
+            event.accept(ModItems.WEED_LEAF);
+        }
+
 
     }
 
