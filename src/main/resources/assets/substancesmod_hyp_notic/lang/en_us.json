@@ -1,7 +1,7 @@
 {
   "item.substancesmod_hyp_notic.blunt":"Blunt",
-  "item.substancesmod_hyp_notic.weed_leaf":"Weed_leaf",
+  "item.substancesmod_hyp_notic.weed_leaf":"Weed leaf",
   "item.substancesmod_hyp_notic.cigarette":"cigarette",
-
+  "block.substancesmod_hyp_notic.meth_block": "Solid Meth block",
   "creativetab.substances_tab": "Substances Tab"
 }

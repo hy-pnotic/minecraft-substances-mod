@@ -1,6 +1,7 @@
 package net.hyp_notic.substancesmod;
 
 import com.mojang.logging.LogUtils;
+import net.hyp_notic.substancesmod.block.ModBlocks;
 import net.hyp_notic.substancesmod.item.ModCreativeModTabs;
 import net.hyp_notic.substancesmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,8 @@ public class SubstancesMod
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
 
         // Register the commonSetup method for modloading
