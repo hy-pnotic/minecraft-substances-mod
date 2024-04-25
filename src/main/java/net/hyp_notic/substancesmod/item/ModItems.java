@@ -17,6 +17,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CIGARETTE = ITEMS.register("cigarette",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WEED_BALL = ITEMS.register("weed_ball",
+            () -> new Item(new Item.Properties()));
+  public static final RegistryObject<Item> DRIED_TOBACCO = ITEMS.register("dried_tobacco",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

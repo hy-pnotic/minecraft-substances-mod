@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+  "all": "substancesmod_hyp_notic:block/weed_block"
+    }
+}

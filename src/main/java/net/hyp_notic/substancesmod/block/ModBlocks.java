@@ -23,6 +23,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> METH_BLOCK = registerBlock("meth_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> WEED_BLOCK = registerBlock("weed_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -2,6 +2,11 @@
   "item.substancesmod_hyp_notic.blunt":"Blunt",
   "item.substancesmod_hyp_notic.weed_leaf":"Weed leaf",
   "item.substancesmod_hyp_notic.cigarette":"cigarette",
+  "item.substancesmod_hyp_notic.dried_tobacco": "Dried tobacco",
+  "item.substancesmod_hyp_notic.weed_ball": "ball of weed",
   "block.substancesmod_hyp_notic.meth_block": "Solid Meth block",
+  "block.substancesmod_hyp_notic.weed_block": "dry weed block",
+
+
   "creativetab.substances_tab": "Substances Tab"
 }
