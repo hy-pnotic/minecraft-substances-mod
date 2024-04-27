@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "substancesmod_hyp_notic:weed_leaf"
+    }
+  ],
+  "result": {
+    "item": "substancesmod_hyp_notic:weed_ball",
+    "count": 1
+  }
+}

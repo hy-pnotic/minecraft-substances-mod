@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "raw_tobacco",
+  "ingredient": {
+    "item": "substancesmod_hyp_notic:raw_tobacco"
+  },
+  "result": "substancesmod_hyp_notic:dried_tobacco",
+  "count": 1
+}

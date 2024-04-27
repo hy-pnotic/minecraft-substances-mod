@@ -25,6 +25,7 @@ public class ModCreativeModTabs {
                         p0utput.accept(ModItems.WEED_BALL.get());
                         p0utput.accept(ModItems.DRIED_TOBACCO.get());
                         p0utput.accept(ModItems.BLUNT.get());
+                        p0utput.accept(ModItems.BIG_BLUNT.get());
                         p0utput.accept(ModItems.CIGARETTE.get());
                         p0utput.accept(ModBlocks.METH_BLOCK.get());
                         p0utput.accept(ModBlocks.WEED_BLOCK.get());

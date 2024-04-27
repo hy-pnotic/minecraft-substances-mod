@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "substancesmod_hyp_notic:meth_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "substancesmod_hyp_notic:blocks/meth_block"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "substancesmod_hyp_notic:dried_tobacco"
+    },
+    "#": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "T",
+    "T",
+    "#"
+  ],
+    "result": {
+      "item": "substancesmod_hyp_notic:cigarette"
+    }
+}

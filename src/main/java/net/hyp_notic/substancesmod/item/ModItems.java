@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> BLUNT = ITEMS.register("blunt",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BIG_BLUNT = ITEMS.register("blunt",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WEED_LEAF = ITEMS.register("weed_leaf",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CIGARETTE = ITEMS.register("cigarette",

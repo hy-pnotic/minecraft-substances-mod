@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "substancesmod_hyp_notic:weed_ball"
+    },
+    "T": {
+      "item": "substancesmod_hyp_notic:dried_tobacco"
+    },
+    "#": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "W",
+    "T",
+    "#"
+  ],
+    "result": {
+      "item": "substancesmod_hyp_notic:blunt"
+    }
+}
